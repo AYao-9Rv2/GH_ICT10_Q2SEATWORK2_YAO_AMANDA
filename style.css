@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/9/196/25/artistic-dark-red-hd-wallpaper-thumb.jpg);
+    background-size: cover; /* Ensure the image covers the entire background */
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    background-color: #3D0004;
+    color: #EEF9FF; 
+}
+
+.container {
+    margin-top: 100px;
+    max-width: 900px; 
+}
+
+h1 {
+    text-align: center;
+    color: #EEF9FF;
+}

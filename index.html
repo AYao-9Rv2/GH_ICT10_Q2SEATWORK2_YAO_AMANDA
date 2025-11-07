@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <title>student grade calculator</title>
+</head>
+<body style="font-family: 'DM Sans', sans-serif;">
+<div class="container">
+    <h1><b>student grade calculator</b></h1>
+    
+    <div class="row align-items-center">
+
+    <form>
+        <input id="fname" type="text" placeholder="first name">
+        <input id="lname" type="text" placeholder="last name">
+    </form>
+    </div>
+
+    <div class="d-flex">
+    <h4><b>enter your grades:</b></h4>
+    <form>
+        <input id="eng" type="number" placeholder="english">
+        <input id="math" type="number" placeholder="math">
+        <input id="sci" type="number" placeholder="science"><br>
+        <input id="ss" type="number" placeholder="social studies">
+        <input id="ve" type="number" placeholder="values education">
+        <input id="filo" type="number" placeholder="filipino">
+    </form>
+    </div>
+
+    <div class="d-flex gap-2 mb-2">
+    <button id="gwa" class="btn btn-light" py-click="student_gwa"><b>get gwa</b></button>
+    <button type="button" class="btn btn-light" onclick="window.location.reload()"><b>refresh</b></button>
+    </div>
+
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+
+</div>
+</body>
+</html>
